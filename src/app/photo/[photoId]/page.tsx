@@ -11,10 +11,9 @@ type Props = {
         photoId: string,
     }
 }
-
 export default async function Photo({ params: { photoId } }: Props) {
 
-    const response = await fetch(`http://localhost:3500/images/${photoId}`, { cache: 'no-store' })
+    const response = await fetch(`http://localhost:3500/images/${photoId}`)
 
     const photoData: PhotoData = await response.json()
 

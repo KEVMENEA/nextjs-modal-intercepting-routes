@@ -9,14 +9,14 @@ type Props = {
 export default function PhotoDisplay({ photoData }: Props) {
 
     return (
-        <div className="flex flex-col gap-4 w-64 mx-auto">
-            <h1 className="text-3xl text-center">{photoData.title}</h1>
+        <div className="w-full">
+            <h1 className="text-lg font-semibold text-white text-center">{photoData.title}</h1>
             <Link href={`/photo/${photoData.id}`}>
-                <div className="border-2 rounded-xl overflow-hidden w-64 h-64 relative">
+                <div className="relative w-72 h-72 rounded-xl overflow-hidden">
                     <Image
                         src={photoData.path}
                         alt={photoData.title}
-                        sizes="256px"
+                        sizes="200px"
                         fill
                         style={{
                             objectFit: 'cover',

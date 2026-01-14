@@ -2,18 +2,38 @@
     "images": [
         {
             "id": 1,
-            "title": "Americano 1",
-            "path": "http://localhost:3000/americano1.jpg"
+            "title": "Angkor Wat ",
+            "path": "http://localhost:3000/1.jpg"
         },
         {
             "id": 2,
-            "title": "Americano 2",
-            "path": "http://localhost:3000/americano2.jpg"
+            "title": "Angkor Wat",
+            "path": "http://localhost:3000/2.jpg"
         },
         {
             "id": 3,
-            "title": "Americano 3",
-            "path": "http://localhost:3000/americano3.jpg"
+            "title": "Angkor Wat",
+            "path": "http://localhost:3000/3.jpg"
+        },
+         {
+            "id": 4,
+            "title": "Bayon Image",
+            "path": "http://localhost:3000/4.jpg"
+        },
+        {
+            "id": 5,
+            "title": "Bayon Image ",
+            "path": "http://localhost:3000/5.jpg"
+        },
+        {
+            "id": 6,
+            "title": "Bayon Image",
+            "path": "http://localhost:3000/6.jpg"
+        },
+        {
+            "id": 7,
+            "title": "Bayon Image",
+            "path": "http://localhost:3000/7.jpg"
         }
     ]
 }
